@@ -78,7 +78,7 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Indicator LED: Shows power ON status.
     
     <div align="center">
-  <img src="images/block_diagram.png" alt="Block Diagram" width="400"/>
+  <img src="imagee/white.png" alt="Block Diagram" width="800"/>
 </div>
 
 
@@ -93,7 +93,7 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - LED: Red LED for power indication.
     
     <div align="center">
-  <img src="images/block_diagram.png" alt="Block Diagram" width="400"/>
+  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
 </div>
 
 
@@ -109,7 +109,7 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Output LED: Red LED with current limiting resistor, connected before output connector.
     
     <div align="center">
-  <img src="images/block_diagram.png" alt="Block Diagram" width="400"/>
+  <img src="imagee/black.png" alt="Block Diagram" width="800"/>
     </div>
 
 
@@ -118,7 +118,7 @@ The goal of this project is to design a power supply circuit that converts 220V 
 - **Outcome:** A clean, labeled schematic showing connections between transformer, bridge rectifier, filters, regulator, connectors, and LED.
 
 <div align="center">
-  <img src="images/block_diagram.png" alt="Block Diagram" width="400"/>
+  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
 </div>
 
 
@@ -129,7 +129,7 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Correct placement of components for thermal dissipation and ease of assembly.  
   - Proper silkscreen markings for connectors and polarity.
   <div align="center">
-  <img src="images/block_diagram.png" alt="Block Diagram" width="400"/>
+  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
 </div>
 
 ---
