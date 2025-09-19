@@ -60,6 +60,7 @@ This framework outlines the systematic process of transforming an electronic pro
 # Project 1: AC to DC Power Supply Design (220V AC to 12V DC)
 
 ## Problem Statement
+
 The goal of this project is to design a power supply circuit that converts 220V AC mains voltage into a stable 12V DC output. This is a common requirement to power low voltage electronic circuits from household AC supply. The designed supply must be safe, reliable, and provide regulated DC with minimal ripple.
 
 ---
@@ -76,11 +77,10 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Voltage Regulator: Stabilizes DC output voltage.  
   - Output Connector: Delivers 12V regulated DC to load.  
   - Indicator LED: Shows power ON status.
-    
-    <div align="center">
-  <img src="imagee/white.png" alt="Block Diagram" width="800"/>
-</div>
 
+<div align="center">
+  <img src="imagee/white.png" alt="Black Box Diagram" width="800"/>
+</div>
 
 ### 2. Morphological Chart Analysis
 - **Objective:** List alternative technical solutions for each component and choose best fit per specifications.
@@ -91,11 +91,10 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Filter Capacitors: 100µF, 35V for input; 100µF, 16V for output.  
   - Voltage Regulator: Linear LM7805 chosen for ease and availability.  
   - LED: Red LED for power indication.
-    
-    <div align="center">
-  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
-</div>
 
+<div align="center">
+  <img src="imagee/morph.png" alt="Morphological Chart" width="800"/>
+</div>
 
 ### 3. White Box Analysis
 - **Objective:** Expand black box components with actual parts and values.
@@ -107,20 +106,18 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Voltage regulator: LM7805 linear IC.  
   - Output filter capacitor: 100µF, 16V electrolytic capacitor.  
   - Output LED: Red LED with current limiting resistor, connected before output connector.
-    
-    <div align="center">
-  <img src="imagee/black.png" alt="Block Diagram" width="800"/>
-    </div>
 
+<div align="center">
+  <img src="imagee/black.png" alt="White Box Components" width="800"/>
+</div>
 
 ### 4. Schematic Capture
 - **Task:** Import or create component symbols and footprints from online libraries such as SnapEDA.  
 - **Outcome:** A clean, labeled schematic showing connections between transformer, bridge rectifier, filters, regulator, connectors, and LED.
 
 <div align="center">
-  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
+  <img src="imagee/schematic.png" alt="Schematic Capture" width="800"/>
 </div>
-
 
 ### 5. PCB Design
 - **Task:** Carefully layout PCB ensuring:  
@@ -128,23 +125,18 @@ The goal of this project is to design a power supply circuit that converts 220V 
   - Isolation gap maintained between AC (primary) and DC (secondary) sections for safety.  
   - Correct placement of components for thermal dissipation and ease of assembly.  
   - Proper silkscreen markings for connectors and polarity.
-  <div align="center">
-  <img src="imagee/morph.png" alt="Block Diagram" width="800"/>
+
+<div align="center">
+  <img src="imagee/layout.png" alt="PCB Layout" width="800"/>
 </div>
 
----
+<div align="center">
+  <img src="imagee/model.png" alt="PCB 3D Model" width="800"/>
+</div>
 
-## Next Steps
+## Contribution
 
-- Add images of each stage: block diagram, morphological chart, white box component listing, schematic capture snapshot, PCB layout.  
-- Detailed explanations and component datasheets can be linked or included as project documentation.  
-- Proceed with simulation, prototyping, testing, and validation phases after PCB fabrication.
-
----
-
-This document will be updated progressively as the project advances. Contributions and suggestions are welcome.
+This project and the electronic product development framework have been inspired and guided by valuable educational content from the [Linked Frequency YouTube Channel](https://www.youtube.com/@Linked_Frequency). Their practical tutorials on electronics basics, PCB design, and component selection have been instrumental in shaping this work.
 
 
-
-This framework provides a structured, risk-minimized pathway from concept to finished electronic product by documenting clear tasks and deliverables at each stage.
 
